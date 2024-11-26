@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+h1 {
+    background-color: #7f1619;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+for
+h1 {
+    position: absolute;
+    top: 10px; /* Distance from the top of the container */
+    left: 20%; /* Center horizontally */
+}
+form {
+    max-width: 700px;
+    margin: auto;
+    padding: 50px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+/* Absolute positioning */
+.table-container {
+    position: relative;
+}
+table {
+    position: absolute;
+    top: 50px; /* Distance from the top of the container */
+    left: 50%; /* Center horizontally */
+    transform: translateX(-50%); /* Adjust to center */
+}
+/* Relative positioning */
+table {
+    position: relative;
+    top: auto; /* Moves the table down */
+    left: 850px; /* Moves the table right */
+}
+table { 
+    width: 70%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+input[type="submit"], button {
+    background-color: #7f1619;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover, button:hover {
+    background-color: #EE2433;
+}
+.print{
+    background-color: #7f1619;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    top: 150px; /* Distance from the top of the container */
+    left: 63%; /* Center horizontally */
+}

@@ -1,0 +1,138 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+h1 {
+    background-color: #7f1619;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+h2 {
+    color: #7f1619;
+    text-align: center;
+}
+for
+h1 {
+    position: absolute;
+    top: 10px; /* Distance from the top of the container */
+    left: 20%; /* Center horizontally */
+}
+h2 {
+    position: absolute;
+    top: 100px; 
+    left: 47%;
+    transform: translateX(-50%);
+}
+/* Absolute positioning */
+.table-container {
+    position: relative;
+}
+table {
+    position: absolute;
+    top: 55px; /* Distance from the top of the container */
+    left: 50%; /* Center horizontally */
+    transform: translateX(-50%); /* Adjust to center */
+}
+/* Relative positioning */
+table {
+    position: relative;
+    top: 500; /* Moves the table down */
+    left: 850px; /* Moves the table right */
+}
+table { 
+    width: 70%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+h2 {
+    color: #7f1619;
+    text-align: center;
+    position: absolute;
+    top: 410px;
+    left: 37%;
+    transform: translateX(-50%);
+}
+h3 {
+    color: #757373;
+    text-align: center;
+    position: absolute;
+    top: 600px;
+    left: 35%;
+    transform: translateX(-50%);
+}
+.container {
+    color: #7f1619;
+    text-align: top;
+    justify-content: right;
+    position: absolute;
+    bottom: 1px;
+    left: 35%;
+    transform: translateX(-50%);
+}
+.edit {
+background-color: #8FCFE2;
+color: #fff;
+padding: 10px;
+border: none;
+cursor: pointer;
+}
+.edit:hover {
+background-color: #45C9F0;
+}
+.delete {
+background-color: #7f1619;
+color: #fff;
+padding: 10px;
+border: none;
+cursor: pointer;
+}
+.delete:hover{
+background-color: #ff3131;
+}
+form {
+    max-width: 700px;
+    margin: auto;
+    padding: 50px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+label {
+    display: block;
+    margin: 10px 0 5px;
+}
+input[type="text"], input[type="email"], textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+.job_description, textarea {
+    width: 90%;
+    padding: 40px;
+    margin-bottom: 10px;
+}
+input[type="submit"], button {
+    background-color: #7f1619;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover, button:hover {
+    background-color: #EE2433;
+}
